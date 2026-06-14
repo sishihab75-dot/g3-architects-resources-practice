@@ -6,3 +6,37 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* color */
+
+.dark-2{
+    color: #424242;
+}
+.baground-1{
+   background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header */
+/* navber related style */
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.navber{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: o auto;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 25px;
+}
