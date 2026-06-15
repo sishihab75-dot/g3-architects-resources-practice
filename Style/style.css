@@ -27,7 +27,7 @@
     display:flex;
     justify-content: space-between;
     max-width: 1440px;
-    margin: o auto;
+    margin: 0 auto;
     align-items: center;
 }
 .nav-item{
@@ -39,4 +39,39 @@
 .nav-link{
     text-decoration: none;
     margin-right: 25px;
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.banner-titel{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.benner-description{
+
+}
+.button1{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+
+}
+.bannet-image{
+    width: 100%;
+}
+
+/* responsibe media quary */
+
+@media screen and (max-width: 576px) {
+    .navber , .nav-item , .nav-link{
+        flex-direction: column;
+    }
+    
 }
