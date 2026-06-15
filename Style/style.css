@@ -101,6 +101,7 @@ main{
 .feture-title{
     font-size: 2.8rem;
     font-weight: 700;
+    margin-top: 130px;
 }
 #quick1{
     font-weight: 500;
@@ -108,13 +109,35 @@ main{
 .feture-discription{
    padding-top: 24px !important;
    font-size: 1rem !important;
+   max-width: 540px;
+   margin-top: 24px;
 }
-/* loar mean */
-
-#fah{
-    font-size: 1rem;
+/* loaer main */
+/* fact relaitade style  */
+.fact{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
 /* responsibe media quary */
 
 @media screen and (max-width: 576px) {
