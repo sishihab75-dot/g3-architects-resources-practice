@@ -102,6 +102,7 @@ main{
     font-size: 2.8rem;
     font-weight: 700;
     margin-top: 130px;
+
 }
 #quick1{
     font-weight: 500;
@@ -111,6 +112,7 @@ main{
    font-size: 1rem !important;
    max-width: 540px;
    margin-top: 24px;
+  
 }
 /* loaer main */
 /* fact relaitade style  */
@@ -138,6 +140,22 @@ main{
     font-weight: 600;
     margin-top: 10px;
 }
+
+/* sponsor related style  */
+
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+.our-sponsor{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.our-sponsor img{
+    filter: grayscale(100%);
+}
 /* responsibe media quary */
 
 @media screen and (max-width: 576px) {
@@ -150,11 +168,15 @@ main{
     
 }
 @media screen and (max-width:576px){
-   .team-image{
+   .team-image , .facts-container , .our-sponsor{
     grid-template-columns: repeat(1,1fr);
    }
    .feture{
     margin-left: 20px;
+   }
+   .facts-container , .our-sponsor{
+    justify-items: center;
+    gap: 24px;
    }
 }
 
@@ -166,6 +188,11 @@ main{
     }
     .feture{
         margin: 30px auto;
+    }
+    .facts-container , .our-sponsor{
+        grid-template-columns: repeat(2 , 2fr);
+         justify-items: center;
+    gap: 24px;
     }
 }
 
